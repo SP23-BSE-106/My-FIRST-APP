@@ -48,21 +48,32 @@
 //     </div>
 //   );
 // }
-import Login from "./Login";//  Question4
+// import Login from "./Login";//  Question4
 
-function App() {
-  const handleLogin = () => {
-    alert("Welcome");
-  };
+// function App() {
+//   const handleLogin = () => {
+//     alert("Welcome");
+//   };
 
+//   return (
+//     <div>
+//       <Login isLoggedIn={true} name="Munazza" />
+//       <Login isLoggedIn={false} onLogin={handleLogin} />
+//     </div>
+//   );
+// }
+import Box from "./Box";
+function App(){
   return (
     <div>
-      <Login isLoggedIn={true} name="Munazza" />
-      <Login isLoggedIn={false} onLogin={handleLogin} />
+      <h1>Dynamic Color Buttons</h1>
+      
+      <Box color="red" />
+      <Box color="blue" />
+      <Box color="green" />
     </div>
   );
 }
-
 export default App;
 
 
