@@ -24,19 +24,29 @@
 
 //  }
 
- import Show from "./Show";//Question 2
+//  import Show from "./Show";//Question 2
 
- function App(){
+//  function App(){
+//   return (
+//     <div>
+//       <h1>Student Details</h1>
+//       <Show
+//         name="Munazza" 
+//         marks={95} 
+//         message="Keep up the great work!" 
+//       />
+//     </div>
+//   );
+//  }
+
+
+import Question3 from "./Question3";// Question3
+function App(){
   return (
     <div>
-      <h1>Student Details</h1>
-      <Show
-        name="Munazza" 
-        marks={95} 
-        message="Keep up the great work!" 
-      />
+      < Question3/>
     </div>
   );
- }
+}
 export default App;
 
