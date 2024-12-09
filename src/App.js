@@ -74,10 +74,24 @@
 //     </div>
 //   );
 // }
-import Admin from "./Admin";//Question 6
-function App() {
-  const userRole = "admin"; 
-  return <Admin userRole={userRole}/>;
+// import Admin from "./Admin";//Question 6
+// function App() {
+//   const userRole = "admin"; 
+//   return <Admin userRole={userRole}/>;
+// }
+import Header from "./Header";//  question7
+import Body from "./Body";
+import Footer from "./Footer";
+function App(){
+  const bodyContent = "This is the content for the body of my application.";
+
+  return (
+    <div>
+      <Header />
+      <Body content={bodyContent} />
+      <Footer />
+    </div>
+  );
 }
 export default App;
 
