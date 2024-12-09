@@ -62,17 +62,22 @@
 //     </div>
 //   );
 // }
-import Box from "./Box";
-function App(){
-  return (
-    <div>
-      <h1>Dynamic Color Buttons</h1>
+// import Box from "./Box";//Question 5
+// function App(){
+//   return (
+//     <div>
+//       <h1>Dynamic Color Buttons</h1>
       
-      <Box color="red" />
-      <Box color="blue" />
-      <Box color="green" />
-    </div>
-  );
+//       <Box color="red" />
+//       <Box color="blue" />
+//       <Box color="green" />
+//     </div>
+//   );
+// }
+import Admin from "./Admin";//Question 6
+function App() {
+  const userRole = "admin"; 
+  return <Admin userRole={userRole}/>;
 }
 export default App;
 
