@@ -1,7 +1,7 @@
 import React from 'react';
 
 function BookList() {
-  // Array of books
+ 
   const books = ['Java', 'Web Technologies', 'Data Structures', 'Calculus'];
 
   return (
