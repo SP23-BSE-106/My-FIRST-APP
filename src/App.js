@@ -181,3 +181,16 @@
 // }
 
 // export default App;
+// import React from 'react'; // Question 7
+// import BasicForm from './BasicForm'; 
+// import './App.css';
+// function App() {
+//   return (
+//     <div>
+//       <h1>React Basic Form Example</h1>
+//       <BasicForm />
+//     </div>
+//   );
+// }
+
+// export default App;
