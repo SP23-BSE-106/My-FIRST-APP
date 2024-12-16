@@ -207,3 +207,15 @@
 // }
 
 // export default App;
+// import React from 'react'; // Question 9
+// import FactorialCalculator from './FactorialCalculator'; 
+// function App() {
+//   return (
+//     <div>
+//       <h1>Factorial Calculator Example</h1>
+//       <FactorialCalculator />
+//     </div>
+//   );
+// }
+
+// export default App;
