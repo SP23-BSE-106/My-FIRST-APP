@@ -61,7 +61,7 @@
   font-size: 16px;
   color: #555;
 } */
-button {
+/* button { //css for button
   margin: 10px;
   padding: 10px 20px;
   font-size: 16px;
@@ -71,6 +71,25 @@ button {
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+div {
+  text-align: center;
+  margin-top: 30px;
+} */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 div {
