@@ -93,6 +93,25 @@
 //     </div>
 //   );
 // }
+//LAB Assignment 11
+// import React from 'react'; //Question 1
+// import ShoppingCart from './ShoppingCart';
+
+// function App() {
+//   // Array of shopping items
+//   const shoppingItems = ['Apples', 'Bananas', 'Oranges', 'Grapes', 'Milk'];
+
+//   return (
+//     <div>
+//       <h1>Welcome to the Store!</h1>
+   
+//       <ShoppingCart items={shoppingItems} />
+//     </div>
+//   );
+// }
+
 export default App;
+
+
 
 
