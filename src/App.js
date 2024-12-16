@@ -125,6 +125,19 @@
 
 // export default App;
 
+// import Students from './Students'; // Question 3
+// import './App.css'; 
+
+// function App() {
+//   return (
+//     <div>
+//       <h1>Student Marks Information</h1>
+//       <Students />
+//     </div>
+//   );
+// }
+
+// export default App;
 
 
 
