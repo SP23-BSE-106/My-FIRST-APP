@@ -168,3 +168,16 @@
 
 // export default App;
 
+// import React from 'react'; // Question 6
+// import DigitalClock from './DigitalClock'; 
+// import './App.css';
+// function App() {
+//   return (
+//     <div>
+//       <h1>React Digital Clock</h1>
+//       <DigitalClock />
+//     </div>
+//   );
+// }
+
+// export default App;
